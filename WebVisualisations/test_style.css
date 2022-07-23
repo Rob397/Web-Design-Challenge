@@ -25,13 +25,19 @@ h1 {
     color: gray;
   }
   
+
+  .navbar li a {
+    color: #000;
+    text-decoration: none;
+  }
+  
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
     height: 200px;
     padding-top: 20px;
     background: #cdcdcd;
   }
-  .collapse navbar-collapse {
+  .navbar a {
     float: left;
     font-size: 16px;
     color: lightskyblue;
@@ -39,8 +45,31 @@ h1 {
     padding: 14px 16px;
     text-decoration: none;
   }
-.dropdown-menu{
-  color: blue;
-  width: 400px
+  #nav-select{
+    visibility: invisible;
 
- }
+
+  }
+
+.col-md-{
+color: blueviolet
+
+  }
+  
+.Temperature1{
+    padding-top: 25px;
+    text-align: left;
+
+
+}
+  .Cloudiness1{
+    padding-top: 25px;
+    text-align: left;
+
+  }
+
+  .image1{
+    height: 300px;
+    width: 500px;
+
+  }

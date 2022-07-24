@@ -6,13 +6,16 @@ h2 {
     background-color: lightblue;
     color: black;
   }
-h3{
-  text-align: left;
 
-}
+ img {
+    box-shadow: 100px 100px 50px whitesmoke;
+    position: center;
 
-  img {
-    box-shadow: 10px 10px 5px whitesmoke;
+  } 
+  image{
+    position: center;
+    box-shadow: 100px 100px 50px whitesmoke;
+    position: center;
   }
   
   section {
@@ -37,7 +40,7 @@ h3{
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
     height: 200px;
-    padding-top: 25px;
+    padding-top: 20px;
     background: #cdcdcd;
   }
   .collapse navbar-collapse {
@@ -57,12 +60,6 @@ h3{
   display: inline;
 }
 
-.navbar-nav{
+    
 
   
-}
-
-
-
-
-

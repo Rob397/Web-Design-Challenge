@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <img src=>
     <style> 
     
       </style>
       <meta charset="UTF-8">
-      <title>Bootstrap Activity for website</title>
+      <title>Latitude Vs Weather Conditions Project</title>
+      <h2> Latitude Vs X
+
+      </h2>
       
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -16,92 +20,76 @@
       <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
-      <h1> Latitude Vs X
-      </h1>
       <link rel="stylesheet" href="style.css">
     </head>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Latitude</a>
+      <a class="navbar-brand" href="landing_page.html">Latitude</a>
     
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+      <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
       aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
 
       <span class="navbar-toggler-icon"></span>
-      </button>
+      </button> -->
     
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
         <ul class="navbar-nav">
 
           <li class="nav-item active">
-            <a class="nav-link" href="#">Plots <span class="sr-only">(current)</span></a>
+            <!-- <a class="nav-link" href="#">Plots 
+              <div class="dropdown"> -->
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Plots
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                  <a class="dropdown-item" href="visualisations_page_1.html" target="_blank">Temperature</a>
+                  <a class="dropdown-item" href="visualisations_page_2_cloud.html" target ="_blank"> Cloudiness</a>
+                  <a class="dropdown-item" href="visualisations_page_3_humidity.html" target ="_blank"> Humidity</a>
+                  <a class="dropdown-item" href="visualisations_page_4_windspeed.html" target ="_blank"> WindSpeed</a>
+          
+                </div>
+              </div>
+  
+              <!-- <span class="sr-only">(current)</span> -->
           </li>
 
           <li class="nav-item">
-            <a class="nav-link" href="#">Comparison</a>
+            <a class="nav-link" href="Comparisons.html">Comparison</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Data</a>
+            <a class="nav-link" href="Data_page.html">Data</a>
           </li>
-
-          <!-- <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-              <a href="visualisations_page_1.html" target="_blank">Temperature </a>
-              <a href="visualisations_page_2_cloud.html" target ="_blank"> Cloudiness</a>
-              <a href="visualisations_page_3_humidity.html" target ="_blank"> Humidity</a>
-              <a href="visualisations_page_4_windspeed.html" target ="_blank"> WindSpeed</a>
-
-            </a> 
-            
-          </li>  -->
          
       </div>
     </nav>
-    <div class="dropdown">
-      <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-        Plots
-      </button>
-      <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-        <a class="dropdown-item" href="visualisations_page_1.html" target="_blank">Temperature</a>
-        <a class="dropdown-item" href="visualisations_page_2_cloud.html" target ="_blank"> Cloudiness</a>
-        <a class="dropdown-item" href="visualisations_page_3_humidity.html" target ="_blank"> Humidity</a>
-        <a class="dropdown-item" href="visualisations_page_4_windspeed.html" target ="_blank"> WindSpeed</a>
 
-      </div>
-    </div>
-        <!-- <div class="clearfix"></div> -->
       
 <body>
 
-    <div class="container text-center">
-      <h2>
-        Summary: Latitude Vs X
-      </h2>
+  <div class="row">
+    <div class="col-sm-7">
+      <br><h4>Summary </h4>
       <p>The purpose of this project was to see how the weather changes as you get closer to the equator. We investigated the 
-        relationship between latitude and weather for the month of June. The team used humidity, temperauture, cloudiness and windspeed as 
-        variables to invetsigate the impact of the latitude on the weather conditions for this time of year.  </p> <br><br>
-      <p>The results show......akakakak  </p>
-    <div class="row"> 
-    <div class="col-11">
-      <img src="visualisations/TemperatureInWorldCities.png" width="300" height="230" alt="">
-      <img src="visualisations/CloudinessInWorldCities.png" width="300" height ="230" alt="">
+      relationship between latitude and weather for the month of June. The team used humidity, temperature, cloudiness and windspeed as 
+      variables to investigate the impact of the latitude on the weather conditions .  </p> <br><br>
+    <p>The results show..... </p>
+    <div style="text-align: center;">
+      <img src="visualisations/TemperatureInWorldCities.png" width="500" height="330" alt="" >
+
     </div>
-    <div class="row">
-      <div class="col-11">
-    
-        <img src="visualisations/HumidityInWorldCities.png" width="300" height ="230" alt="">
-        <img src="visualisations/Wind SpeedInWorldCities.png" width="300" height ="230" alt="">
-    </div>
-    
-    </div>
-    </div>
+  </div>
+    <div class="col-sm-5">
+
+      <p></p><br><p></p><br><h4>Visualisations</h4>
+    <p></p><br>
+    <img src="visualisations/TemperatureInWorldCities.png" width="250" height="170" alt="">
+    <img src="visualisations/CloudinessInWorldCities.png" width="250" height="170" alt="">
+    <img src="visualisations/HumidityInWorldCities.png" width="250" height="170" alt="">
+    <img src="visualisations/Wind SpeedInWorldCities.png" width="250" height="170" alt=""></div>
+  </div>
+  
       
   </div>
-      <!-- <br>  <br> <br></be>  <a href="visualisations_page_1.html" target="_blank">Temperature Visualisation</a>
- <br> <a href="visualisations_page_2_cloud.html" target="_blank">Cloudiness Visualisation</a>
- <br><a href="visualisations_page_3_humidity.html" target ="_blank">Humidity Visualisation</a>
- <br><a href="visualisations_page_4_windspeed.html" target="_blank">Windspeed Visualisation</a> -->
-
 
 </body>
 </html>

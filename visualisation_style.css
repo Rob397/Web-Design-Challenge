@@ -1,0 +1,65 @@
+
+/* starting code for the css  */
+
+h2 {
+    text-align: center;
+    background-color: lightblue;
+    color: black;
+  }
+
+ img {
+    box-shadow: 100px 100px 50px whitesmoke;
+    position: center;
+
+  } 
+  image{
+    position: center;
+    box-shadow: 100px 100px 50px whitesmoke;
+    position: center;
+  }
+  
+  section {
+    background-color: #000;
+  }
+  
+  p {text-align: center;
+    font-size: 15px;
+    color: black;
+    border: 0em;
+  }
+  
+  ul {text-align: centre
+    border-style: solid;
+    color: gray;
+  }
+  .container text-center{
+
+    color: lightblue;
+  }
+  
+  /* Styling the header, giving it a height, a background color, and some top padding */
+  .header {
+    height: 200px;
+    padding-top: 20px;
+    background: #cdcdcd;
+  }
+  .collapse navbar-collapse {
+    float: left;
+    font-size: 16px;
+    color: lightskyblue;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+.dropdown-menu{
+  color: blue;
+  width: 400px
+
+ }
+ li {
+  display: inline;
+}
+
+    
+
+  
